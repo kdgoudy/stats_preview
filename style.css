@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* container box have only 2 box */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #090b1a;
+}
+
+.container__right {
+  width: 40vw;
+  height: 50vh;
+
+
+  background:
+   linear-gradient(rgba(170, 92, 219, 0.171), rgba(170, 92, 219, 0.527)),
+   url("image-header-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.container__left {
+  width: 40vw;
+  height: 50vh;
+  background-color: #1b1938;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  padding: 40px 50px 40px 40px;
+
+
+}
+
+/* conatiner left consist of 3 box */
+
+
+
+.container__left__top span {
+  color:rgba(170, 92, 219) ;
+}
+
+
+.container__left__mid {
+  line-height: 150%;
+  padding-bottom: 60px;
+}
+
+.container__left__mid p {
+  color: #ffffffbf;
+  font-size: smaller;
+}
+
+/* conatiner left_bottom consist of 3 box */
+.container__left__bottom {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.container__left__bottom p {
+  color: #ffffffbf;
+}
